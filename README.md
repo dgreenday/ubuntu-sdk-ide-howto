@@ -1,4 +1,4 @@
-# Installing Ubuntu SDK on a fresh Ubuntu Xenial
+# Installing Ubuntu SDK for Touch devices on a fresh Ubuntu Xenial
 
 ``` sh
 sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
@@ -11,6 +11,7 @@ sudo lxd-init
 # Answer all questions with default
 
 # Restart session (or machine)
+# sudo reboot
 
 # Install fixed usdk-tools (Fixed lxc.aa_profile -> lxc.apparmor.profile)
 dpkg -i ubuntu-sdk-tools_0.6_amd64.deb
